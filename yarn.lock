@@ -2192,21 +2192,31 @@
     ethers "^5.3.1"
     tiny-invariant "^1.3.1"
 
-"@uniswap/router-sdk@^1.9.0":
+"@uniswap/router-sdk@https://github.com/swap-great/router-sdk-1.9.0.git":
   version "1.9.0"
-  resolved "https://registry.yarnpkg.com/@uniswap/router-sdk/-/router-sdk-1.9.0.tgz#f35432ddc400ddb83985adc840c5898e2bc008cd"
-  integrity sha512-UeQrrjhOIzPDxHzkF341Sd9PjIzJwiHFQhaEYFIWNE4yC/wzSiISxc5Ebp94p/KVmettoFRa+682yn9IZBhFTA==
+  resolved "https://github.com/swap-great/router-sdk-1.9.0.git#fa690b8e7bdc4ea4d96c929cc6b8a5fce4f37b81"
   dependencies:
     "@ethersproject/abi" "^5.5.0"
-    "@uniswap/sdk-core" "^4.2.0"
+    "@uniswap/sdk-core" "https://github.com/swap-great/sdk-core"
     "@uniswap/swap-router-contracts" "^1.1.0"
-    "@uniswap/v2-sdk" "^4.3.0"
-    "@uniswap/v3-sdk" "^3.11.0"
+    "@uniswap/v2-sdk" "https://github.com/swap-great/v2-sdk.git"
+    "@uniswap/v3-sdk" "https://github.com/swap-great/v3-sdk-11.git"
 
-"@uniswap/sdk-core@^4.2.0":
+"@uniswap/sdk-core@^4.2.0", "@uniswap/sdk-core@https://github.com/swap-great/sdk-core":
   version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@uniswap/sdk-core/-/sdk-core-4.2.0.tgz#9930f133baec9c1118d891ebf8fcba7f7efc153d"
-  integrity sha512-yXAMLHZRYYuh6KpN2nOlLTYBjGiopmI9WUB4Z0tyNkW4ZZub54cUt22eibpGbZAhRAMxclox9IPIs6wwrM3soQ==
+  resolved "https://github.com/swap-great/sdk-core#e2c3cd126c34afe8fc600edf85c7485bdaab9ec8"
+  dependencies:
+    "@ethersproject/address" "^5.0.2"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.4"
+    tiny-invariant "^1.1.0"
+    toformat "^2.0.0"
+
+"@uniswap/sdk-core@https://github.com/swap-great/sdk-core.git":
+  version "4.2.0"
+  uid e2c3cd126c34afe8fc600edf85c7485bdaab9ec8
+  resolved "https://github.com/swap-great/sdk-core.git#e2c3cd126c34afe8fc600edf85c7485bdaab9ec8"
   dependencies:
     "@ethersproject/address" "^5.0.2"
     big.js "^5.2.2"
@@ -2253,10 +2263,9 @@
   resolved "https://registry.npmjs.org/@uniswap/v2-core/-/v2-core-1.0.1.tgz"
   integrity sha512-MtybtkUPSyysqLY2U210NBDeCHX+ltHt3oADGdjqoThZaFRDKwM6k1Nb3F0A3hk5hwuQvytFWhrWHOEq6nVJ8Q==
 
-"@uniswap/v2-sdk@^4.2.0", "@uniswap/v2-sdk@^4.3.0":
+"@uniswap/v2-sdk@https://github.com/swap-great/v2-sdk.git":
   version "4.3.0"
-  resolved "https://registry.yarnpkg.com/@uniswap/v2-sdk/-/v2-sdk-4.3.0.tgz#621dcf4ea236448a0a49cd901932b3a466c8ae02"
-  integrity sha512-FUKkgo/1TQc/HuWWgsoy1FIcsLkKwm3Nnor88yfn2NH8ER5RK/wDF9UzDDilYh3yyf2mAnaY89CKFhcIl+lbBQ==
+  resolved "https://github.com/swap-great/v2-sdk.git#f0414c3ad67afa9161059cd0fcd5606ef9656fd3"
   dependencies:
     "@ethersproject/address" "^5.0.0"
     "@ethersproject/solidity" "^5.0.0"
@@ -2308,14 +2317,13 @@
     "@uniswap/v3-core" "^1.0.0"
     base64-sol "1.0.1"
 
-"@uniswap/v3-sdk@^3.11.0":
+"@uniswap/v3-sdk@https://github.com/swap-great/v3-sdk-11.git":
   version "3.11.0"
-  resolved "https://registry.yarnpkg.com/@uniswap/v3-sdk/-/v3-sdk-3.11.0.tgz#328309fbafddd8c618b7b6850bb99cacf6733a79"
-  integrity sha512-gz6Q6SlN34AXvxhyz181F90D4OuIkxLnzBAucEzB9Fv3Z+3orHZY/SpGaD02nP1VsNQVu/DQvOsdkPUDGn1Y9Q==
+  resolved "https://github.com/swap-great/v3-sdk-11.git#7edb13f0d65ed3b2fa2f8311420fe9f2d2b951e2"
   dependencies:
     "@ethersproject/abi" "^5.0.12"
     "@ethersproject/solidity" "^5.0.9"
-    "@uniswap/sdk-core" "^4.2.0"
+    "@uniswap/sdk-core" "https://github.com/swap-great/sdk-core.git"
     "@uniswap/swap-router-contracts" "^1.2.1"
     "@uniswap/v3-periphery" "^1.1.1"
     "@uniswap/v3-staker" "1.0.0"
