@@ -2194,29 +2194,17 @@
 
 "@uniswap/router-sdk@https://github.com/swap-great/router-sdk-1.9.0.git":
   version "1.9.0"
-  resolved "https://github.com/swap-great/router-sdk-1.9.0.git#fa690b8e7bdc4ea4d96c929cc6b8a5fce4f37b81"
+  resolved "https://github.com/swap-great/router-sdk-1.9.0.git#7cc63a174e3eb96288619c62b04ba22122bdd97d"
   dependencies:
     "@ethersproject/abi" "^5.5.0"
-    "@uniswap/sdk-core" "https://github.com/swap-great/sdk-core"
+    "@uniswap/sdk-core" "https://github.com/swap-great/sdk-core.git"
     "@uniswap/swap-router-contracts" "^1.1.0"
     "@uniswap/v2-sdk" "https://github.com/swap-great/v2-sdk.git"
     "@uniswap/v3-sdk" "https://github.com/swap-great/v3-sdk-11.git"
 
-"@uniswap/sdk-core@^4.2.0", "@uniswap/sdk-core@https://github.com/swap-great/sdk-core":
-  version "4.2.0"
-  resolved "https://github.com/swap-great/sdk-core#e2c3cd126c34afe8fc600edf85c7485bdaab9ec8"
-  dependencies:
-    "@ethersproject/address" "^5.0.2"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.4"
-    tiny-invariant "^1.1.0"
-    toformat "^2.0.0"
-
 "@uniswap/sdk-core@https://github.com/swap-great/sdk-core.git":
   version "4.2.0"
-  uid e2c3cd126c34afe8fc600edf85c7485bdaab9ec8
-  resolved "https://github.com/swap-great/sdk-core.git#e2c3cd126c34afe8fc600edf85c7485bdaab9ec8"
+  resolved "https://github.com/swap-great/sdk-core.git#e52389342683ae7ce86a2afd20f22d37d3b29aa3"
   dependencies:
     "@ethersproject/address" "^5.0.2"
     big.js "^5.2.2"
@@ -2265,11 +2253,11 @@
 
 "@uniswap/v2-sdk@https://github.com/swap-great/v2-sdk.git":
   version "4.3.0"
-  resolved "https://github.com/swap-great/v2-sdk.git#f0414c3ad67afa9161059cd0fcd5606ef9656fd3"
+  resolved "https://github.com/swap-great/v2-sdk.git#736f11c94f202b6081ed69c99e01a8383aca36a1"
   dependencies:
     "@ethersproject/address" "^5.0.0"
     "@ethersproject/solidity" "^5.0.0"
-    "@uniswap/sdk-core" "^4.2.0"
+    "@uniswap/sdk-core" "https://github.com/swap-great/sdk-core.git"
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
 
@@ -2319,7 +2307,7 @@
 
 "@uniswap/v3-sdk@https://github.com/swap-great/v3-sdk-11.git":
   version "3.11.0"
-  resolved "https://github.com/swap-great/v3-sdk-11.git#7edb13f0d65ed3b2fa2f8311420fe9f2d2b951e2"
+  resolved "https://github.com/swap-great/v3-sdk-11.git#6aab036449b601f6ce0b19e9e24460beb390ca90"
   dependencies:
     "@ethersproject/abi" "^5.0.12"
     "@ethersproject/solidity" "^5.0.9"
